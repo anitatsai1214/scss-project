@@ -1,0 +1,523 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "SF Pro Text";
+}
+
+a {
+  text-decoration: none;
+}
+
+.a-more {
+  font-size: 16px;
+  font-family: "PingFang TC";
+  color: #AC8A46;
+  line-height: 24px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "SF Pro Text";
+  color: #000000;
+}
+
+.price-text {
+  font-size: 16px;
+  color: #000000;
+  line-height: 24px;
+  font-family: "SF Pro Text" light;
+}
+
+.title1 {
+  font-family: "SF Pro Text" bold;
+  font-size: 32px;
+  color: #000000;
+  line-height: 48px;
+}
+
+.title2 {
+  font-family: "SF Pro Text" semibold;
+  font-size: 24px;
+  color: #000000;
+  line-height: 36px;
+}
+
+.text-cross {
+  color: #8D8D8D;
+  font-size: 16px;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.header .flexbox {
+  height: 56px;
+  align-items: center;
+}
+
+.pagination ul {
+  display: flex;
+  justify-content: center;
+}
+.pagination ul li a {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: SF Pro Text;
+  color: #000000;
+  padding-right: 10px;
+  padding-right: 10px;
+}
+.pagination ul li.active a {
+  text-decoration: underline;
+  color: #AC8A46;
+}
+
+.nav li {
+  margin-left: 32px;
+}
+.nav li i {
+  margin-right: 3px;
+}
+.nav li a {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #8D8D8D;
+}
+
+.vision {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+}
+.vision .flexbox {
+  height: 870px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.vision .vision-text {
+  width: 445px;
+  color: #ffffff;
+}
+.vision .vision-text h2 {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0px;
+}
+.vision .vision-text p {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0px;
+}
+.vision .vision-text .shopnow {
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  width: 350px;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 0px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.features {
+  margin-bottom: 60px;
+}
+.features .feature-content {
+  display: flex;
+  align-items: center;
+}
+.features .feature-content > div {
+  width: 50%;
+}
+.features .feature-content .feature-text {
+  padding-left: 110px;
+  padding-right: 110px;
+  box-sizing: border-box;
+}
+.features .feature-content p {
+  font-family: "PingFang TC";
+  font-size: 16px;
+  color: #000000;
+  line-height: 30px;
+}
+.features .feature-content h4 {
+  font-size: 24px bold;
+  line-height: 36px;
+  font-family: "SF Pro Text";
+  color: #000000;
+}
+.features .feature-content .price-text {
+  padding-bottom: 52px;
+}
+.features .feature-content .plan {
+  border: 2px solid #000000;
+  border-radius: 30px;
+  color: #000000;
+  width: 350px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features .feature-content .feature-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 555px;
+}
+.features .feature-content .feature-img-1 {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index2.jpg?raw=true);
+}
+.features .feature-content .feature-img-2 {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index3.png?raw=true);
+}
+.features .feature-content .feature-img-3 {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index4.jpg?raw=true);
+}
+.features .feature-content .feature-img-4 {
+  height: 1000px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index5.jpg?raw=true);
+}
+
+.product-box {
+  background-color: #E0E0E0;
+  margin-bottom: 60px;
+}
+.product-box .flexbox {
+  justify-content: space-between;
+  height: 728px;
+  align-items: center;
+}
+.product-box .product {
+  width: 350px;
+}
+.product-box .product-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 540px;
+  margin-bottom: 8px;
+}
+.product-box .product-img1 {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index6.jpg?raw=true);
+}
+.product-box .product-img2 {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index7.jpg?raw=true);
+}
+.product-box .product-img3 {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index8.jpg?raw=true);
+}
+
+.bottle-wrap {
+  margin-bottom: 60px;
+}
+.bottle-wrap .flexbox {
+  justify-content: space-between;
+  align-items: center;
+}
+.bottle-wrap .bottle-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 730px;
+  height: 520px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index9.jpg?raw=true);
+}
+.bottle-wrap .bottle-text {
+  width: 350px;
+}
+.bottle-wrap .p-en-m {
+  font-size: 20px;
+  color: #000000;
+  line-height: 30px;
+  font-family: "SF Pro Text";
+  padding-bottom: 16px;
+}
+.bottle-wrap .price-text {
+  padding-bottom: 52px;
+}
+
+.subscribe {
+  height: 600px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index10.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% auto;
+}
+.subscribe .subscribe-text {
+  margin-top: 312px;
+}
+.subscribe .subscribe-text h5 {
+  font-size: 32px;
+  font-family: "PingFang TC";
+  line-height: 48px;
+  color: #8D8D8D;
+  margin-bottom: 20px;
+}
+.subscribe .input-box {
+  border: 1px solid #916000;
+  height: 60px;
+}
+.subscribe .input-box input {
+  border: none;
+  width: 219px;
+  line-height: 60px;
+  padding-left: 10px;
+}
+.subscribe .input-box a {
+  display: block;
+  width: 131px;
+  background: #916000;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 60px;
+}
+
+.footer {
+  background: #916000;
+}
+.footer .flexbox {
+  height: 80px;
+  align-items: center;
+}
+.footer .flexbox .copyright span {
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: "SF Pro Text";
+  color: #ffffff;
+  position: relative;
+  top: -8px;
+}
+.footer .flexbox .link li {
+  margin-left: 36px;
+}
+.footer .flexbox .link li a {
+  font-size: 20px;
+  font-family: "SF Pro Text";
+  color: #ffffff;
+}
+
+.menu {
+  background: #916000;
+  margin-bottom: 80px;
+}
+.menu .flexbox {
+  width: 600px;
+  height: 52px;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .flexbox li {
+  margin-right: 25px;
+}
+.menu .flexbox li a {
+  font-size: 20px;
+  font-family: "SF Pro Text";
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.product-section .flexbox {
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.product-section .pic1 {
+  display: block;
+  width: 225px;
+  height: 225px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/products1.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-section .pic2 {
+  display: block;
+  width: 225px;
+  height: 225px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index6.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-section .pic3 {
+  display: block;
+  width: 225px;
+  height: 225px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/products3.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-section .pic4 {
+  display: block;
+  width: 225px;
+  height: 225px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/products4.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-section .pic5 {
+  display: block;
+  width: 225px;
+  height: 225px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/products5.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-section .pic6 {
+  display: block;
+  width: 225px;
+  height: 225px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index4.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-section .pic7 {
+  display: block;
+  width: 225px;
+  height: 225px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/products7.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-section .pic8 {
+  display: block;
+  width: 225px;
+  height: 225px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/products8.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-section .pic9 {
+  display: block;
+  width: 225px;
+  height: 225px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index3.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-section .pic10 {
+  display: block;
+  width: 225px;
+  height: 225px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/products10.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-section .pic11 {
+  display: block;
+  width: 225px;
+  height: 225px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/products11.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-section .pic12 {
+  display: block;
+  width: 225px;
+  height: 225px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/products12.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product-section .product-item {
+  margin-bottom: 56px;
+}
+.product-section i {
+  color: #916000;
+  margin-top: 3px;
+}
+.product-section .pagination {
+  margin-bottom: 60px;
+}

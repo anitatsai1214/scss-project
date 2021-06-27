@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family: $ff-en;
+}
+a {
+    text-decoration: none;
+}
+.a-more {
+    font-size: $fz16;
+    font-family: $ff-ch;
+    color: $lightbrown;
+    line-height: 24px;
+}
+h4 {
+    font-size: $fz24;
+    line-height: 36px;
+    font-family: $ff-en;
+    color: $black;
+}
+.price-text {
+    font-size: $fz16;
+    color: $black;
+    line-height: 24px;
+    font-family: $ff-en light;
+}
+.title1{
+    font-family: $ff-en bold;
+    font-size: $fz32;
+    color: $black;
+    line-height: 48px;
+}
+.title2{
+    font-family: $ff-en semibold;
+    font-size: $fz24;
+    color: $black;
+    line-height: 36px;
+}
+.text-cross {
+    color: $grey;
+    font-size: $fz16;
+    text-decoration: line-through;
+    margin-left: 8px; 
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+
+.header .flexbox {
+    height: 56px;
+    align-items: center;
+}
+.pagination ul {        
+    display:flex;
+    justify-content: center;
+    li{
+        a{
+            font-size: 20px;
+            line-height: 30px;
+            font-family: SF Pro Text;
+            color: #000000;
+            padding-right: 10px;
+            padding-right: 10px;
+        }
+        &.active a{
+            text-decoration: underline ;
+            color: $lightbrown;
+        }
+    }
+}
